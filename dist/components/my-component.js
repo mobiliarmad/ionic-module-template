@@ -5,7 +5,7 @@ var MyComponent = /** @class */ (function () {
     MyComponent.decorators = [
         { type: Component, args: [{
                     selector: 'my-component',
-                    template: "<div>I'm a special snowflake</div>"
+                    template: "<div>I'm a special snowflake, version 0.0.14</div>"
                 },] },
     ];
     /** @nocollapse */

@@ -3,7 +3,7 @@ var MyProvider = /** @class */ (function () {
     function MyProvider() {
     }
     MyProvider.prototype.myMethod = function () {
-        console.log("I'm afraid I can't do that.");
+        console.log("I'm afraid I can't do that in version 0.0.14");
     };
     MyProvider.decorators = [
         { type: Injectable },
