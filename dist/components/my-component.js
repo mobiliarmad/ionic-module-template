@@ -8,8 +8,8 @@ export { MyComponent };
 MyComponent.decorators = [
     { type: Component, args: [{
                 selector: 'my-component',
-                templateUrl: 'my-component.html',
-                styleUrls: ['my-component.css']
+                templateUrl: './my-component.html',
+                styleUrls: ['./my-component.css']
             },] },
 ];
 /** @nocollapse */
