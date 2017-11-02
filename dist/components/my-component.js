@@ -8,7 +8,7 @@ export { MyComponent };
 MyComponent.decorators = [
     { type: Component, args: [{
                 selector: 'my-component',
-                template: "<div class=\"my-component\">I'm a special snowflake, version 0.0.14</div>"
+                template: "<div><div class=\"my-component\">I'm a special snowflake, version 0.0.14</div></div>"
             },] },
 ];
 /** @nocollapse */
