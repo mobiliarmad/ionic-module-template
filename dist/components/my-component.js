@@ -9,7 +9,7 @@ MyComponent.decorators = [
     { type: Component, args: [{
                 selector: 'my-component',
                 template: "\n      <div class=\"myClass\">I'm a special snowflake</div>\n    ",
-                styles: ["\n      .myClass {\n        background-color: orchid;\n        color: white;\n      }\n    "]
+                styles: ["\n      .myClass {\n        background-color: orchid;\n        color: white;\n        font-size: 50px;\n      }\n    "]
             },] },
 ];
 /** @nocollapse */

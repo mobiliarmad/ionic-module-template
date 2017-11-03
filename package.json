@@ -7,7 +7,7 @@
   "files": "dist",
   "scripts": {
     "ngc": "ngc",
-    "build": "rm -rf tmp && rm -rf aot dist && gulp && npm run ngc && rm -rf dist/src && mv dist/tmp/** dist && rm -rf dist/tmp && rm -rf tmp",
+    "build": "rm -rf tmp aot dist && gulp && npm run ngc && rm -rf dist/src && mv dist/tmp/** dist && rm -rf dist/tmp && rm -rf tmp aot",
     "publishPackage": "npm run build && npm publish",
     "test": "karma start ./test-config/karma.conf.js",
     "test-coverage": "karma start ./test-config/karma.conf.js --coverage"

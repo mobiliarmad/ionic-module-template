@@ -1,6 +1,5 @@
 var inlineNg2Template = require('gulp-inline-ng2-template');
 var gulp = require('gulp');
-var del = require('del');
 
 gulp.task('default', function () {
 
