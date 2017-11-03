@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
-  selector: 'my-component',
-  template: `<div>I'm a special snowflake</div>`
+    selector: 'my-component',
+    templateUrl: 'my-component.html',
+    styleUrls: ['my-component.scss']
 })
 export class MyComponent {
-  constructor() {}
+    constructor() {
+    }
 }

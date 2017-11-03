@@ -8,7 +8,8 @@ export { MyComponent };
 MyComponent.decorators = [
     { type: Component, args: [{
                 selector: 'my-component',
-                template: "<div>I'm a special snowflake</div>"
+                template: "\n      <div class=\"myClass\">I'm a special snowflake</div>\n    ",
+                styles: ["\n      .myClass {\n        background-color: orchid;\n      }\n    "]
             },] },
 ];
 /** @nocollapse */
